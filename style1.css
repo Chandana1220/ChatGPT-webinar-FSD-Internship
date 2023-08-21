@@ -1,0 +1,72 @@
+/* Reset default margins and padding */
+body, h1, h2, h3, p, form {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 219, 225);
+  }
+  
+  /* Center content vertically and horizontally */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  /* Style header section */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style details section */
+  .details {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style speaker section */
+  .speaker {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: cursive;
+  }
+  
+  .speaker img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style registration section */
+  .registration {
+    text-align: center;
+  }
+  
+  .registration input,
+  .registration button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #506250;
+    border-radius: 5px;
+  }
+  
+  .registration button {
+    background-color: #26578a;
+    color: #141313;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  }
+  
